@@ -1,0 +1,36 @@
+input[type="email"] {
+  background-color: hotpink;
+}
+input[name|="name"] {
+  background-color: blue;
+}
+input[name|="address"] {
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* h1::before {
+  content: url(./avatar.jpeg);
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  width: 20px;
+  height: 20px;
+} */
+h1::before {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  content: "";
+  background: url(./avatar.jpeg) no-repeat 0 0;
+  background-position: stretch;
+  background-size: 40px 40px;
+}
+h1::after {
+  content: " >";
+  font-size: 40px;
+}
