@@ -10,6 +10,7 @@
   - Reference Types:
     - Objekte
     - Arrays
+  - ![Primitive Types vs. Reference Types](./refererence-types.png)
 - Spread Operator
   - Der Spread-Operator (`...`) "schüttet" die Werte aus einem Objekt oder Array aus, um sie z.B. in ein neues Objekt/Array oder als Parameter einer Funktion einzufügen:
     ```
