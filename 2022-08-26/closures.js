@@ -1,5 +1,6 @@
 function CounterClosure() {
   let counter = 0;
+
   return () => {
     return ++counter;
   };
